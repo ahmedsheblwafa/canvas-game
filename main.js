@@ -91,6 +91,8 @@ var playerWidth = 100
 var timeIndex = 100
 var playerX = myCanvas.width/2-playerWidth/2
 var gameOverImg = myImg; 
+scoreDisplya.textContent =0
+
 
 myCanvas.addEventListener("touchmove",(e)=>{
     playerX = e.touches[0].clientX - playerWidth/2
