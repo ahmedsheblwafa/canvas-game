@@ -78,7 +78,7 @@ var ctx = myCanvas.getContext('2d')
 // ctx.fillText("word",0,40);
 
 
-scoreDisplya.textContent =0
+scoreDisplya.textContent = 0
 highScoreDisplay.textContent = (localStorage.getItem("high score"))?localStorage.getItem("high score"):0
 myCanvas.width = window.innerWidth-4
 myCanvas.height = window.innerHeight-200
@@ -91,7 +91,8 @@ var playerWidth = 100
 var timeIndex = 100
 var playerX = myCanvas.width/2-playerWidth/2
 var gameOverImg = myImg; 
-scoreDisplya.textContent =0
+scoreDisplya.textContent = 0
+console.log(scoreDisplya.textContent);
 
 
 myCanvas.addEventListener("touchmove",(e)=>{
