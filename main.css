@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+p.first {
+  float: left;
+}
+p.second {
+  float: right;
+}
+
+.scoreContainer {
+  overflow: auto;
+}
