@@ -95,7 +95,7 @@ scoreDisplya.textContent = 0
 console.log(scoreDisplya.textContent);
 
 
-myCanvas.addEventListener("touchmove",(e)=>{
+document.body.addEventListener("touchmove",(e)=>{
     playerX = e.touches[0].clientX - playerWidth/2
 })
 function draw(){
